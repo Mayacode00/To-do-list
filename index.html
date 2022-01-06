@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/06302cc7fb.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Todos</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="blurr-bckgrd">
+        <header class="text-header">
+          <h1 class="todos">Todo list</h1>
+          <form class="search-form">
+            <input
+              type="text"
+              class="form-control"
+              name="search"
+              placeholder="search todos"
+            />
+          </form>
+        </header>
+
+        <ul class="todo-lists">
+          <li class="list-group-item">
+            <span>Play Mariokart</span>
+            <i class="far fa-trash-alt delete"></i>
+          </li>
+          <li class="list-group-item">
+            <span>Defeat ganon in zelda</span>
+            <i class="far fa-trash-alt delete"></i>
+          </li>
+          <li class="list-group-item">
+            <span>make a veggie pie</span>
+            <i class="far fa-trash-alt delete"></i>
+          </li>
+        </ul>
+        <form class="add-new">
+          <label class="text">Add new Todo...</label><br>
+          <input name="add" type="text" class="addition">
+        </form>
+      </div>
+    </div>
+    <script src="sandbox.js"></script>
+  </body>
+</html>
